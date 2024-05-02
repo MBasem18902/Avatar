@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-style: italic;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right, rgb(1, 2, 45), #000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-image: linear-gradient(to right, #01022de5 30%, #00000088),
+    url(images/WhatsApp\ Image\ 2024-04-30\ at\ 11.40.55_1ab9a06f.jpg);
+  background-position: center;
+  width: 85%;
+  height: 640px;
+}
+
+.container:hover {
+  background-image: linear-gradient(to right, #01022de5 30%, transparent),
+    url(images/WhatsApp\ Image\ 2024-04-30\ at\ 11.40.55_1ab9a06f.jpg);
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+ul {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul a:hover {
+  border-bottom: 2px solid white;
+}
+
+.content {
+  color: white;
+  width: 50%;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+.content h2 {
+  font-size: 100px;
+}
+
+.content p {
+  letter-spacing: 3px;
+  width: 300px;
+  padding: 20px 0;
+}
+
+.content button {
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.content button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+}
